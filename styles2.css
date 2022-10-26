@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-ThinItalic-webfont.eot');
+  src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('Roboto-ThinItalic-webfont.woff') format('woff'),
+    url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+    url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+}
+
+:root {
+  --firstcolor: #1f2937;
+  --secondcolor: #f9faf8;
+  --thirdcolor: #e5e7eb;
+  --buttoncolor: #3882f6;
+}
+
+
+* {
+  box-sizing: border-box
+}
+
+
+.container {
+  padding: 16px;
+
+}
+
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: var(--buttoncolor);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}

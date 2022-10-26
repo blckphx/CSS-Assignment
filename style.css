@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-ThinItalic-webfont.woff') format('woff'),
+        url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+        url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+:root {
+    --firstcolor: #1f2937;
+    --secondcolor: #f9faf8;
+    --thirdcolor: #e5e7eb;
+    --buttoncolor: #3882f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 80vh;
+    background-color: var(--firstcolor);
+    background-size: cover;
+    background-position: center;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px var(--firstcolor);
+    background: var(--firstcolor);
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+
+header nav .logo img {
+    font-size: 24px;
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+    margin-right: 900px;
+    color: var(--secondcolor);
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: var(--secondcolor);
+}
+
+header nav li a:hover {
+    color: lightblue;
+}
+
+
+header .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+
+header .main h1 {
+    position: relative;
+    font-size: 48px;
+    top: 80px;
+    left: 25px;
+    color: var(--secondcolor);
+    font-weight: bolder;
+}
+
+header .main h1 span {
+    font-size: 48px;
+    color: var(--secondcolor);
+    font-weight: bolder;
+}
+
+header .main p {
+    width: 650px;
+    text-align: justify;
+    line-height: 20px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+    color: #f9faf8;
+}
+
+header .main .main_tag .main_btn {
+    background: var(--buttoncolor);
+    padding: 10px 20px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: var(--secondcolor);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+header .main .main_img img {
+    width: 780px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+/*SERVICES*/
+
+.services {
+    width: 100%;
+    height: 30vh;
+    margin: 35px 0;
+
+}
+
+.services .services_box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.services .services_box .services_card {
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 8px var(--buttoncolor);
+    padding: 15px 10px;
+}
+
+.services .services_box .services_card i {
+    color: #089da1;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.services .services_box .services_card h3 {
+    margin-bottom: 10px;
+}
+
+/*SECTION */
+
+.section_main {
+    padding-top: 60px;
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    background-color: var(--thirdcolor);
+    background-size: cover;
+    background-position: center;
+    font-size: 36px;
+    color: var(--firstcolor);
+
+}
+
+/*ABOVE FOOTER*/
+
+.main_second {
+    padding-top: 3px;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 70%;
+    height: 10vh;
+    border: solid var(--buttoncolor);
+    background: var(--buttoncolor);
+    border-radius: 10px;
+}
+
+.main_second .main_btn2 {
+
+    border: solid var(--secondcolor);
+    margin-left: 1000px;
+    position: relative;
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--thirdcolor);
+    padding: 10px 20px;
+
+
+}
+
+.main_second h3 {
+    color: var(--thirdcolor);
+}
+
+.main_second p {
+    color: var(--thirdcolor);
+
+}
+
+
+
+/*FOOTER*/
+
+
+.footer_main {
+    width: 100%;
+    height: 5vh;
+    background-color: var(--firstcolor);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer_main p {
+    padding-top: 10px;
+    color: var(--secondcolor);
+}
